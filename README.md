@@ -1,6 +1,6 @@
 # RDQN: Extending the Deep Q Network to Recurrent Neural Networks
 
-This repository contains Matlab code to train the models explored in my MSc project (pdf file included). 
+This repository contains Matlab code to train the models explored in my MSc project (pdf file included). Some of the early code was written by [Alexander Botev](https://github.com/Botev).
 
 ## Training the models
 
