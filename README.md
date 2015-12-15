@@ -18,9 +18,9 @@ In these files, the ___ can be replaced by Catch, Catch2 or TMan. They are speci
 
 + `follow___Policy` follows an epsilon-greedy policy on one of the games. Takes as input a weight vector as well as a DQN.		
 + `run___Experiment` runs an experiment (i.e. learns a DQN/DQRNN). This is the file you will use to train networks. Parameters can be changed to control many features:
-..+ `nNewTrans` - whether new experiences are generated (following epsilon-greedy policy) (and how many)
-..+ `nFuncEvals` - number of gradient computations to make
-..+ `memoryLength` - how long to keep transitions in the memory (measured in number of transitions)
+..* `nNewTrans` - whether new experiences are generated (following epsilon-greedy policy) (and how many)
+..* `nFuncEvals` - number of gradient computations to make
+..* `memoryLength` - how long to keep transitions in the memory (measured in number of transitions)
 
 ## Useful terminology
 
